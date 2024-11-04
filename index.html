@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guangju Wang - Resume</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #3498db;
+            --background: #f8f9fa;
+            --text: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: var(--secondary);
+        }
+
+        .company {
+            font-style: italic;
+            color: var(--accent);
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 20px;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary);
+        }
+
+        .publication-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .publication-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .publication-year {
+            color: var(--accent);
+            font-weight: bold;
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: rgba(52, 152, 219, 0.1);
+            margin-bottom: 8px;
+        }
+
+        .publication-card h3 {
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .publication-card p {
+            color: var(--secondary);
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            section {
+                padding: 15px;
+            }
+        }
+        .patent-card {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        margin: 15px 0;
+        padding: 15px;
+        background: white;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    
+    .patent-card:hover {
+        transform: translateX(10px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .patent-number {
+        color: var(--accent);
+        font-weight: bold;
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 4px;
+        background: rgba(52, 152, 219, 0.1);
+        margin-bottom: 8px;
+    }
+
+    .patent-title {
+        color: var(--primary);
+        margin-bottom: 8px;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    .patent-date {
+        color: var(--secondary);
+        font-size: 0.9em;
+        font-style: italic;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guangju Wang</h1>
+    </header>
+    <section id="about">
+        <h2>About</h2>
+        <p>As the Chief Technology Officer and Co-founder of <a href="https://openpsi.ai/">OpenPSI</a>, I lead the development of cutting-edge AI systems with a focus on Large Language Models and Reinforcement Learning. With a strong academic foundation including a Ph.D. from The Hong Kong University of Science and Technology under the guidance of <a href="https://reijz.github.io/">Prof. Jiheng Zhang</a>, and degrees from the University of Pennsylvania and Tsinghua University, I bridge the gap between theoretical research and practical applications in AI. My work spans across academic research, industrial applications, and entrepreneurial ventures, reflecting my commitment to advancing the field of artificial intelligence.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <div class="job-title">Cofounder & CTO</div>
+            <div class="company"><a href="https://openpsi.com/">OpenPSI, Shanghai, CN</a></div>
+            <ul>
+                <li>In a startup company, leading the development of RLHF system for language models.</li>
+                <li>Lead the development of 2B&2C AI products.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Senior Researcher</div>
+            <div class="company"><a href="https://sqz.ac.cn/">Shanghai Qizhi Institute, Shanghai, CN — 2021-2022</a></div>
+            <ul>
+                <li>Lead the design and implementation scalable reinforcement learning system.[<a href="https://github.com/openpsi-project/srl">Scaling to 10000 cores!</a>]</li>
+                <li>Developed various industrial applications based on advanced RL techniques.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Senior Algorithm Engineer</div>
+            <div class="company"><a href="https://www.alibaba.com/">Alibaba Inc., Shanghai, CN — 2020-2021</a></div>
+            <ul>
+                <li>In <a href="https://www.freshippo.com/">Freshippo</a>, I developed and maintained simulation-based inventory optimization, pricing and sales forecasting algorithms for perishable goods.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="job-title">Ph.D. in Industrial Engineering and Logistics Management</div>
+            <div class="company"><a href="https://ieda.ust.hk/">The Hong Kong University of Science and Technology</a> — 2020</div>
+        </div>
+
+        <div class="education-item">
+            <div class="job-title">Master of Science in Engineering in Systems Engineering</div>
+            <div class="company"><a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> — 2016</div>
+        </div>
+
+        <div class="education-item">
+            <div class="job-title">Bachelor of Science in Engineering in Industrial Engineering</div>
+            <div class="company"><a href="https://www.ie.tsinghua.edu.cn/eng/">Tsinghua University</a> — 2014</div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="publication-card">
+            <span class="publication-year">ICML 2024</span>
+            <h3>Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study.</h3>
+            <p>Authors: Shusheng Xu, Wei Fu, Jiaxuan Gao, Wenjie Ye, Weilin Liu, Zhiyu Mei, Guangju Wang, Chao Yu, Yi Wu</p>
+        </div>
+        <div class="publication-card">
+            <span class="publication-year">ICLR 2023</span>
+            <h3>SRL: Scaling Distributed Reinforcement Learning to Over Ten Thousand Cores.</h3>
+            <p>Authors: Zhiyu Mei, Wei Fu, Jiaxuan Gao, Guangju Wang, Huanchen Zhang, Yi Wu</p>
+        </div>
+        <div class="publication-card">
+            <span class="publication-year">Operations Research</span>
+            <h3>On-Demand Ride-Matching in a Spatial Model with Abandonment and Cancellation.</h3>
+            <p>Authors: Guangju Wang, Hailun Zhang, Jiheng Zhang</p>
+        </div>
+        <div class="publication-card">
+            <span class="publication-year">Blockchain: Research and Applications</span>
+            <h3>Consensus mechanism design based on structured directed acyclic graphs.</h3>
+            <p>Authors: Jiahao He, Guangju Wang, Guangyuan Zhang, Jiheng Zhang</p>
+        </div>
+    </section>
+
+    <section id="patents">
+        <h2>Patents</h2>
+        <div class="patent-card">
+            <span class="patent-number">US 2022/0101318 A1</span>
+            <div class="patent-title">Transaction Assignment Method and Apparatus Based on Structured Directed Acyclic Graph</div>
+            <div class="patent-date">Filed: March 31, 2022</div>
+        </div>
+        
+        <div class="patent-card">
+            <span class="patent-number">US 2022/0100724 A1</span>
+            <div class="patent-title">Method And Apparatus for Creating and Adding a Block Based on a Directed Acyclic Graph and Building a Ledger</div>
+            <div class="patent-date">Filed: March 31, 2022</div>
+        </div>
+    </section>
+    
+    <div class="contact">
+        <p>Email: gwangal@connect.ust.hk</p>
+    </div>
+</body>
+</html>
